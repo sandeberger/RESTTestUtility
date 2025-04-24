@@ -90,7 +90,8 @@ A simple web-based tool built with Flask and vanilla JavaScript for testing REST
 ## File Structure
 ```txt
 .
-├── o3rest.py # Main file with Flask app and HTML/JS
+├── o3rest.py # Swedish - main file with Flask app and HTML/JS
+├── o4rest.py # English - main file with Flask app and HTML/JS
 ├── run.bat # Batchfile for Windows launch
 ├── saved_requests.json # Stores saved request configurations (auto-created)
 ├── request_history.json #  Stores request history (auto-created)
