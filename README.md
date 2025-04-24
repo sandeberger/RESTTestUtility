@@ -88,6 +88,7 @@ A simple web-based tool built with Flask and vanilla JavaScript for testing REST
 2.  To reuse a previous request, find it in the history and click **Load**. The form will be populated with the settings from that historical request.
 
 ## File Structure
+```txt
 .
 ├── o3rest.py # Main file with Flask app and HTML/JS
 ├── run.bat # Batchfile for Windows launch
@@ -95,6 +96,7 @@ A simple web-based tool built with Flask and vanilla JavaScript for testing REST
 ├── request_history.json #  Stores request history (auto-created)
 ├── LICENSE # The GNU GPL v3 License file
 └── README.md # This file
+```
 ## Technical Overview
 
 *   **Backend:** Flask (Python) handles serving the HTML/JS, receiving request details from the client, performing the actual HTTP requests using the `requests` library, and managing API endpoints for saving/loading/deleting configurations and history.
