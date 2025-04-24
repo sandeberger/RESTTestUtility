@@ -1,9 +1,8 @@
+![Logo](logo.png)
 # Web-Based REST Client Tool
-
 A simple web-based tool built with Flask and vanilla JavaScript for testing REST APIs directly from your browser. This tool allows you to send various types of HTTP requests, save frequently used request configurations for easy reuse, and view a history of your recent requests.
 
 ![Tool Screenshot](screenshot.png)
-*(Tip: Add a screenshot of your tool here, name it `screenshot.png`, and update the link if necessary)*
 
 ## Features
 
